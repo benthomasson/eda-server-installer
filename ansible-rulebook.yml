@@ -30,6 +30,7 @@
           line: RULES_ENGINE=drools
 
     - name: Upgrade pip
+      become: true
       ansible.builtin.pip:
         name:
           - pip
