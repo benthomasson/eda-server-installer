@@ -1,0 +1,3 @@
+- name: Install EDA-server
+  gather_facts: true
+  hosts: all
